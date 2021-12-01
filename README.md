@@ -20,6 +20,16 @@ pip install numpy
 7. If the program closes with an error along the lines of: "Error querying device", then make sure you have an audio input device and its enabled. If you do not own a microphone or want cleaner audio, then things get a bit more complex:
 8. [for devices running windows 7 or newer] Open the 'Change System Sounds' menu (it should come up in windows search), then navigate to the recording tab. If your device supports it then you will see a device called "line-in", if you have this device then enable it (and plug an audio lead from your speakers or source device into an audio port that supports microphones) and try running the program again, it should work for you this time.
 
+## Running the project
+
+Running the project is very self-explanatory after setup, double click the Python file to run, then load up some audio (Spotify, YouTube, Soundcloud, ext.) and you will begin to see a pattern appear to the song as its displayed visually. This project very detailed, and if the volume of the song increases then the display zooms out so you can see all the details, ever you go from a really loud song to a quieter one, just press space and it re-sets your view!
+
+### Key binds:
+
+- SPACE: Re-sets your view
+- F11: Toggles full-screen
+- ESC: Closes the window (although be aware that at present make sure to NOT be in full screen when doing this as it can cause issues)
+
 ## Final Notices
 
 There isn't much else left to say, but I hope you enjoy using the project, feel free to share the project or use any aspect of this in your own work; this project is based off my previous work with audio manipulation in Python, and the work of the folks over at moderngl here: https://github.com/moderngl/moderngl.
