@@ -26,7 +26,7 @@ Self_Thread = threading.Thread(target=Run)
 Self_Thread.start()
                 
 class Water(moderngl_window.WindowConfig):
-    title = "Water"
+    title = "Visual-Music"
     print((Path(__file__) / '../Visual-Music/resources').absolute())
     resource_dir = (Path(__file__) / '/Visual-Music/resources').absolute()
     aspect_ratio = None
