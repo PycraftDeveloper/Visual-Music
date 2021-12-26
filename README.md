@@ -28,8 +28,8 @@ Running the project is very self-explanatory after setup, double click the Pytho
 
 This update features many changes, and many bug-fixes, here are all the notable features listed below.
 
-* Bug Fix - Fixed the issue when closing the game in fullscreen and it closing but leaving the blank, unresponsive fullscreen window.
-* Feature - Changed aspect ratio for easier mathmatics and calculations.
+* Bug Fix - Fixed the issue when closing the game in full screen and it closing but leaving the blank, unresponsive full screen window.
+* Feature - Changed aspect ratio for easier mathematics and calculations.
 * Feature - All of the new visuals (and the old ones too) now run relative to the maximum volume, so pressing 'SPACE' is now more relevant than ever, but does create a more accurate effect.
 * Feature - The outer 4 pulses move to sounds louder than 3/4 of the loudest sound. These should pulse to the beat of the song.
 * Feature - The inner pulse is designed to pulse when the sound is louder than 1/4 of the maximum volume, but less than 7/8 of the maximum sound, to make the centre more interesting during louder pieces.
@@ -43,10 +43,40 @@ This update was released on 26/12/2021 (DD/MM/YYYY)
 - F11: Toggles full-screen
 - ESC: Closes the window (although be aware that at present make sure to NOT be in full screen when doing this as it can cause issues)
 
-###Final Notices
+### Final Notices
 
 There isn't much else left to say, but I hope you enjoy using the project, feel free to share the project or use any aspect of this in your own work; this project is based off my previous work with audio manipulation in Python, and the work of the folks over at moderngl here: https://github.com/moderngl/moderngl.
 
 Also, for those interested in privacy. this project in no way saves or distributes any information from the microphone. Thank you for reading and enjoy!
 
 ## Examples
+
+Unfortunately, I cannot record any sound for these pieces due to potential copyright issues.
+
+### You - Approaching Nirvana
+
+[![You - Approaching Nirvana](https://img.youtube.com/vi/eDelX02ieUU/0.jpg)](https://www.youtube.com/watch?v=eDelX02ieUU)
+
+### Fire - TheFatRat
+
+[![Fire - TheFatRat](https://img.youtube.com/vi/NxBXHGu1wIo/0.jpg)](https://www.youtube.com/watch?v=NxBXHGu1wIo)
+
+### Xenogenesis - TheFatRat
+
+[![Xenogenesis - TheFatRat](https://img.youtube.com/vi/_0M4ddHo5jU/0.jpg)](https://www.youtube.com/watch?v=_0M4ddHo5jU)
+
+### Animals - Martin Garrix
+
+[![Animals - Martin Garrix](https://img.youtube.com/vi/kkZJJOhLwyA/0.jpg)](https://www.youtube.com/watch?v=kkZJJOhLwyA)
+
+### Sheika Tower (from The Legend of Zelda Breath of the Wild) - Original Song Artists (Manaka Kataoka, Yasuaki Iwata, Hajime Wakai) & Franco Albertini
+
+[![Sheika Tower (from The Legend of Zelda Breath of the Wild) - Original Song Artists (Manaka Kataoka, Yasuaki Iwata, Hajime Wakai) & Franco Albertini](https://img.youtube.com/vi/3HLGt-xCjTg/0.jpg)](https://www.youtube.com/watch?v=3HLGt-xCjTg)
+
+### Lily's Theme (from Harry Potter and the Deathly Hallows part 2) - Alexandre Desplat
+
+[![Lily's Theme (from Harry Potter and the Deathly Hallows part 2) - Alexandre Desplat](https://img.youtube.com/vi/jRJTZqEHmao/0.jpg)](https://www.youtube.com/watch?v=jRJTZqEHmao)
+
+### Line of Duty End title Theme - The Newton Brothers
+
+[![Line of Duty End title Theme - The Newton Brothers](https://img.youtube.com/vi/-pRfTD2dJkQ/0.jpg)](https://www.youtube.com/watch?v=-pRfTD2dJkQ)
