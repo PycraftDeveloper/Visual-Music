@@ -24,14 +24,29 @@ pip install numpy
 
 Running the project is very self-explanatory after setup, double click the Python file to run, then load up some audio (Spotify, YouTube, Soundcloud, ext.) and you will begin to see a pattern appear to the song as its displayed visually. This project very detailed, and if the volume of the song increases then the display zooms out so you can see all the details, ever you go from a really loud song to a quieter one, just press space and it re-sets your view!
 
+## Change-log
+
+This update features many changes, and many bug-fixes, here are all the notable features listed below.
+
+* Bug Fix - Fixed the issue when closing the game in fullscreen and it closing but leaving the blank, unresponsive fullscreen window.
+* Feature - Changed aspect ratio for easier mathmatics and calculations.
+* Feature - All of the new visuals (and the old ones too) now run relative to the maximum volume, so pressing 'SPACE' is now more relevant than ever, but does create a more accurate effect.
+* Feature - The outer 4 pulses move to sounds louder than 3/4 of the loudest sound. These should pulse to the beat of the song.
+* Feature - The inner pulse is designed to pulse when the sound is louder than 1/4 of the maximum volume, but less than 7/8 of the maximum sound, to make the centre more interesting during louder pieces.
+* Feature - The pulses on the (x,y) axis move with the sound, but if the sound is quieter than 1/4 of the maximum volume, then we move to the new diagonal audio tracks, which are used in quieter parts of the sound.
+
+This update was released on 26/12/2021 (DD/MM/YYYY)
+
 ### Key binds:
 
 - SPACE: Re-sets your view
 - F11: Toggles full-screen
 - ESC: Closes the window (although be aware that at present make sure to NOT be in full screen when doing this as it can cause issues)
 
-## Final Notices
+###Final Notices
 
 There isn't much else left to say, but I hope you enjoy using the project, feel free to share the project or use any aspect of this in your own work; this project is based off my previous work with audio manipulation in Python, and the work of the folks over at moderngl here: https://github.com/moderngl/moderngl.
 
 Also, for those interested in privacy. this project in no way saves or distributes any information from the microphone. Thank you for reading and enjoy!
+
+## Examples
